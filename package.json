@@ -1,0 +1,17 @@
+{
+  "name": "SStoPY",
+  "description": "Convert screenshots to Python code",
+  "version": "0.0.1",
+  "main": "./src/index.js",
+  "author": {},
+  "homepage": "",
+  "scripts": {
+    "start": "./node_modules/.bin/electron ./src",
+    "build": "node ./build"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "electron": "^25.2.0"
+  }
+}
